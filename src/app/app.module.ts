@@ -8,12 +8,14 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { ShoppingListComponent } from './shopping-list/shopping-list/shopping-list.component';
 import { RecipesComponent } from './recipes/recipes/recipes.component';
 import { HeaderComponent } from './header/header.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipeDetailComponent,
     RecipeListComponent,
+    RecipeItemComponent,
     ShoppingEditComponent,
     ShoppingListComponent,
     RecipesComponent,
